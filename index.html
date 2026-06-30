@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const pessoa = {
+            nome: "João",
+            idade: 30,
+            cidade: "São Paulo"
+        };
+
+        // Acessando propriedades do objeto
+        console.log(pessoa.nome); // Saída: João
+        console.log(pessoa.idade); // Saída: 30
+        console.log(pessoa.cidade); // Saída: São Paulo
+
+        // Adicionando uma nova propriedade
+        pessoa.profissao = "Engenheiro";
+        console.log(pessoa.profissao); // Saída: Engenheiro
+
+        // Removendo uma propriedade
+        delete pessoa.idade;
+        console.log(pessoa.idade); // Saída: undefined
+    </script>
+    
+    <h1>Objetos JavaScript</h1>
+    <p>Em JavaScript, um objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) e um valor. Os valores das propriedades podem ser funções, que são então chamadas de métodos. Objetos podem ser criados usando a notação literal de objetos ou a função construtora Object().</p>
+    <h2>Exemplo de Objeto</h2>
+    <p>Aqui está um exemplo simples de um objeto em JavaScript:</p>
+    <pre>
+        const pessoa = {
+            nome: "João",
+            idade: 30,
+            cidade: "São Paulo"
+        };
+    </pre> 
+
+</body>
+</html>
